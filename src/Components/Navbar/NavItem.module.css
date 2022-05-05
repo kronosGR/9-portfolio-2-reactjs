@@ -1,6 +1,8 @@
 .item {
   text-transform: uppercase;
   border-bottom: 1px solid transparent;
+  color: white;
+  line-height: 1.4rem;
 }
 
 .item:hover {
