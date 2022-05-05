@@ -1,5 +1,44 @@
 .container {
   display: flex;
-  justify-content: center;
+  width: 330px;
+  flex-direction: column;
+  align-items: center;
   padding: 2rem;
+  background-color: var(--bg-color-blue);
+  height: 98vh;
+  z-index: 100;
+  transform: translateX(-330px);
+  transition: all 1s;
+}
+
+.navmenu {
+  padding-left: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.hamb_icon {
+  color: var(--bg-color-blue);
+  font-size: 2rem;
+  position: fixed;
+  padding: 1rem;
+  transform: translateX(0);
+  transition: transform 1s;
+}
+
+.hamb_icon:hover {
+  cursor: pointer;
+}
+
+.hamb {
+  display: none;
+}
+
+.hamb:checked ~ .container {
+  transform: translateX(0);
+}
+
+.hamb:checked ~ .hamb_icon {
+  transform: translateX(330px);
+  transition: transform 1s;
 }
