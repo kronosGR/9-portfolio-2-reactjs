@@ -1,0 +1,11 @@
+.container {
+  border-bottom: 2px solid var(--bg-color-black);
+  border-top: 2px solid var(--bg-color-black);
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.75rem;
+  font-family: var(--font-playfair);
+  width: 100%;
+  margin: 2rem;
+  padding: 1rem;
+}
