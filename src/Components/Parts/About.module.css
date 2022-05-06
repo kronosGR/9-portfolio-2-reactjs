@@ -1,5 +1,4 @@
 .container {
-  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,12 +17,15 @@
   font-weight: bold;
   font-size: 1.3rem;
   font-family: var(--font-playfair);
+  padding: 0 1rem;
 }
 
 .details {
   margin: 1rem 0;
+  padding: 0 1rem;
 }
 
 .quote {
   font-style: italic;
+  padding: 0 1rem;
 }
