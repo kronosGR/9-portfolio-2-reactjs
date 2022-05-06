@@ -12,11 +12,15 @@ export const skills = [
     size: 3,
   },
   {
-    name: 'XD',
+    name: 'React.js',
+    size: 3,
+  },
+  {
+    name: 'Next.js',
     size: 2,
   },
   {
-    name: 'Bootstrap',
+    name: 'XD',
     size: 2,
   },
   {
@@ -30,21 +34,17 @@ export const skills = [
   {
     name: 'Node.js',
     size: 1,
-  },  
-  {
-    name: 'Next.js',
-    size: 1,
-  },
-  {
-    name: 'Vue.js',
-    size: 1,
   },
   {
     name: 'Php',
     size: 1,
   },
   {
+    name: 'Bootstrap',
+    size: 1,
+  },
+  {
     name: 'C++',
     size: 1,
-  }
+  },
 ];

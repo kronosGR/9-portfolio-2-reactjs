@@ -2,6 +2,7 @@ import React from 'react';
 import Title from '../Layout/Title';
 
 import styles from './About.module.css';
+import Skills from '../Skills';
 
 const About = () => {
   return (
@@ -23,6 +24,7 @@ const About = () => {
         "It is the definition of paranoia to do the same thing and expect a different
         result. "
       </span>
+      <Skills />
     </div>
   );
 };
