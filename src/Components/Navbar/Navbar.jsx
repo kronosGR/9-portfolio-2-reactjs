@@ -19,10 +19,10 @@ const Navbar = () => {
         <span>Frontend Developer</span>
 
         <ul className={styles.navmenu}>
-          <NavItem name='Home' link='#' />
-          <NavItem name='About' link='#' />
-          <NavItem name='Project' link='#' />
-          <NavItem name='Contact' link='#' />
+          <NavItem name='Home' link='#home' />
+          <NavItem name='About' link='#about' />
+          <NavItem name='Projects' link='#projects' />
+          <NavItem name='Contact' link='#contact' />
         </ul>
       </div>
     </>

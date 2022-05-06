@@ -15,6 +15,10 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   color: var(--bg-color-blue);
@@ -27,4 +31,16 @@ a {
 
 h1 {
   font-size: 1.6rem;
+}
+
+.size1 {
+  font-size: 1rem;
+}
+
+.size2 {
+  font-size: 1.4rem;
+}
+
+.size3 {
+  font-size: 1.7rem;
 }

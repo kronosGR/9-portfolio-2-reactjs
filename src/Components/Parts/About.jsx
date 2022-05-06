@@ -6,7 +6,7 @@ import Skills from '../Skills';
 
 const About = () => {
   return (
-    <div className={styles.container}>
+    <div id='about' className={styles.container}>
       <Title text='About' />
       <img className={styles.image} src='/images/me.jpg' alt='kronos' />
       <span className={styles.intro}>
