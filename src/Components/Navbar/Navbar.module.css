@@ -1,16 +1,17 @@
 .container {
   position: fixed;
   display: flex;
-  width: 330px;
+  width: 310px;
   flex-direction: column;
   align-items: center;
   padding: 2rem;
   background-color: var(--bg-color-blue);
   height: 98vh;
   z-index: 100;
-  transform: translateX(-330px);
+  transform: translateX(-310px);
   transition: all 1s;
   color: white;
+  text-align: center;
 }
 
 .navmenu {
@@ -20,13 +21,16 @@
 }
 
 .hamb_icon {
-  color: var(--bg-color-blue);
+  color: white;
+  background-color: var(--bg-color-blue);
   font-size: 2rem;
   position: fixed;
-  padding: 1rem;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
   transform: translateX(0);
   transition: transform 1s;
   z-index: 100;
+  border-radius: 50%;
 }
 
 .hamb_icon:hover {
@@ -42,6 +46,6 @@
 }
 
 .hamb:checked ~ .hamb_icon {
-  transform: translateX(330px);
+  transform: translateX(310px);
   transition: transform 1s;
 }
