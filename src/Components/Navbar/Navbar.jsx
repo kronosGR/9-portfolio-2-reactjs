@@ -4,6 +4,7 @@ import styles from './Navbar.module.css';
 import NavProfile from './NavProfile';
 import Spacer from '../Layout/Spacer';
 import NavItem from './NavItem';
+import ExternalLink from './ExternalLink';
 
 const Navbar = () => {
   return (
@@ -24,6 +25,16 @@ const Navbar = () => {
           <NavItem name='Projects' link='#projects' />
           <NavItem name='Contact' link='#contact' />
         </ul>
+        <ExternalLink
+          icon='/icons/linkedin.svg'
+          url='https://www.linkedin.com/in/kronosgr/'
+          title='LinkedIn'
+        />
+        <ExternalLink
+          icon='/icons/github.svg'
+          url='https://github.com/kronosGR'
+          title='Github'
+        />
       </div>
     </>
   );
