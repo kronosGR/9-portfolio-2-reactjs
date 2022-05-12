@@ -9,9 +9,11 @@ const Layout = ({ children }) => {
   return (
     <div className={styles.container}>
       <Navbar />
-      {children}
-      <Spacer size='2rem' />
-      <Footer />
+      <div className={styles.children}>
+        {children}
+        <Spacer size='2rem' />
+        <Footer />
+      </div>
     </div>
   );
 };
