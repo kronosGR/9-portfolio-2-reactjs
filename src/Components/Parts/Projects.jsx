@@ -9,9 +9,11 @@ const Projects = () => {
   return (
     <div className={styles.container} id='projects'>
       <Title text='Projects' />
-      {projects.map((project) => (
-        <Project project={project} key={project.id} />
-      ))}
+      <div className={styles.wrapper}>
+        {projects.map((project) => (
+          <Project project={project} key={project.id} />
+        ))}
+      </div>
     </div>
   );
 };
