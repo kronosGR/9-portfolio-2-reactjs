@@ -17,6 +17,7 @@
   color: white;
   transform: translate(5px, 5px);
   box-shadow: none;
+  cursor: pointer;
 }
 
 .button_img {

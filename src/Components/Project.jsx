@@ -3,6 +3,7 @@ import React from 'react';
 import styles from './Project.module.css';
 import Button from './button';
 import Spacer from './Layout/Spacer';
+import ActionButton from './actionButton';
 
 const Project = ({ project }) => {
   const plus = project.plus.split('\n').map((item, i) => {
@@ -27,6 +28,14 @@ const Project = ({ project }) => {
       <div className={styles.btn_container}>
         <Button text='Source Code' img='icons/github.svg' url={project.source} />
         <Button text='Visit' img='icons/visit.svg' url={project.url} />
+        <ActionButton
+          text='Changes'
+          img='icons/send.svg'
+          action={() => {
+            // TODO add popup with changes
+            console.log('test');
+          }}
+        />
       </div>
     </div>
   );
