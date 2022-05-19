@@ -22,6 +22,12 @@ export const projects = [
     img: 'images/full-holidaze.png',
     source: 'https://github.com/kronosGR/ca-portfolio-react',
     url: 'https://next-js-holidaze.vercel.app/',
+    changes: `
+      <ul>
+        <li>12</li>
+        <li>32</li>
+      </ul>
+    `,
   },
   {
     id: 2,

@@ -4,8 +4,11 @@ import styles from './Project.module.css';
 import Button from './button';
 import Spacer from './Layout/Spacer';
 import ActionButton from './actionButton';
+import { useState } from 'react';
 
 const Project = ({ project }) => {
+  const [showModal, setShowModal] = useState(false);
+
   const plus = project.plus.split('\n').map((item, i) => {
     if (i < project.plus.split('\n').length - 1) return <li key={i}>{item}</li>;
   });
@@ -13,6 +16,10 @@ const Project = ({ project }) => {
   const techs = project.techs_imgs.map((img, i) => {
     return <img src={img} key={i} alt='technology' className={styles.tech_img} />;
   });
+
+  const toggleModal = () => {
+    setShowModal(!showModal);
+  };
 
   return (
     <div className={styles.container}>
@@ -28,15 +35,11 @@ const Project = ({ project }) => {
       <div className={styles.btn_container}>
         <Button text='Source Code' img='icons/github.svg' url={project.source} />
         <Button text='Visit' img='icons/visit.svg' url={project.url} />
-        <ActionButton
-          text='Changes'
-          img='icons/send.svg'
-          action={() => {
-            // TODO add popup with changes
-            console.log('test');
-          }}
-        />
+        {project.changes && (
+          <ActionButton text='Changes' img='icons/send.svg' action={toggleModal} />
+        )}
       </div>
+      {showModal && <div dangerouslySetInnerHTML={{ __html: project.changes }}></div>}
     </div>
   );
 };
