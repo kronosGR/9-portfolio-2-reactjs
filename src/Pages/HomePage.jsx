@@ -12,7 +12,6 @@ const HomePage = () => {
         <Home />
         <About />
         <Projects />
-        <Contact />
       </Layout>
     </div>
   );

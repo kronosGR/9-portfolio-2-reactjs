@@ -23,7 +23,7 @@ const Navbar = () => {
           <NavItem name='Home' link='#home' />
           <NavItem name='About' link='#about' />
           <NavItem name='Projects' link='#projects' />
-          <NavItem name='Contact' link='#contact' />
+          {/* <NavItem name='Contact' link='#contact' /> */}
         </ul>
         <ExternalLink
           icon='/icons/linkedin.svg'
@@ -35,6 +35,9 @@ const Navbar = () => {
           url='https://github.com/kronosGR'
           title='Github'
         />
+        <a href='mailto:geo.elgeo@gmail.com' target='_blank' className={styles.link}>
+          geo.elgeo@gmail.com
+        </a>
       </div>
     </>
   );
