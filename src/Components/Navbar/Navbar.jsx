@@ -35,7 +35,11 @@ const Navbar = () => {
           url='https://github.com/kronosGR'
           title='Github'
         />
-        <a href='mailto:geo.elgeo@gmail.com' target='_blank' className={styles.link}>
+        <a
+          href='mailto:geo.elgeo@gmail.com'
+          target='_blank'
+          rel='noreferrer'
+          className={styles.link}>
           geo.elgeo@gmail.com
         </a>
       </div>
