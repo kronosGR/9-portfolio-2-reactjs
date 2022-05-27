@@ -20,7 +20,7 @@ export const projects = [
     ],
     thumb: 'images/holidaze.png',
     img: 'images/full-holidaze.png',
-    source: 'https://github.com/kronosGR/ca-portfolio-react',
+    source: 'https://github.com/kronosGR/Next.js-Holidaze.git',
     url: 'https://next-js-holidaze.vercel.app/',
     changes: `
       <ul>
@@ -53,22 +53,26 @@ export const projects = [
   },
   {
     id: 3,
-    name: 'JS World',
-    year: 2021,
-    info: `A JavaScript blog with tutorials. Uses headless CMS and API.`,
-    plus: `Responsive design
-    Carousel with automatic rotation. Toggle rotation
-    List/Search of tutorials
-    Create/Edit/Update user and comments
+    name: 'Javascript Frameworks Course assignments',
+    year: 2022,
+    info: `A simple project demonstrating Next.js`,
+    plus: `A project made with Next.js demostrating the use of:
+    Next.js
+    React Bootstrap
+    Strapi and JWT
+    Rest API
+    Login
     `,
     techs_imgs: [
       'icons/html.svg',
       'icons/css.svg',
       'icons/javascript.svg',
-      'icons/wp.png',
+      'icons/nextjs.png',
+      'icons/strapi.png',
     ],
-    thumb: 'images/js-world.jpg',
-    img: 'images/js-world.jpg',
+    thumb:
+      'https://github.com/kronosGR/-js-frameworks-course-assignment/raw/main/screenshot.png',
+    img: 'https://github.com/kronosGR/-js-frameworks-course-assignment/raw/main/screenshot.png',
     source: 'https://github.com/kronosGR/JSWorld',
     url: 'https://jsw.kronosgr.net/',
   },
