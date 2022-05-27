@@ -35,9 +35,6 @@ const Project = ({ project }) => {
       <div className={styles.btn_container}>
         <Button text='Source Code' img='icons/github.svg' url={project.source} />
         <Button text='Visit' img='icons/visit.svg' url={project.url} />
-        {project.changes && (
-          <ActionButton text='Changes' img='icons/send.svg' action={toggleModal} />
-        )}
       </div>
       {showModal && <div dangerouslySetInnerHTML={{ __html: project.changes }}></div>}
     </div>

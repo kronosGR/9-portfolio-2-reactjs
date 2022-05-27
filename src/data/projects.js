@@ -72,45 +72,4 @@ export const projects = [
     source: 'https://github.com/kronosGR/JSWorld',
     url: 'https://jsw.kronosgr.net/',
   },
-  {
-    id: 4,
-    name: 'Game Hub',
-    year: 2021,
-    info: `Online store. Headless CMS, API and Local Storage.`,
-    plus: `Responsive design
-    List/search of games with headless CMS
-    Shopping Cart
-    Account management simulation with localstorage
-    `,
-    techs_imgs: [
-      'icons/html.svg',
-      'icons/css.svg',
-      'icons/javascript.svg',
-      'icons/wp.png',
-    ],
-    thumb: 'images/game-hub.jpg',
-    img: 'images/game-hub.jpg',
-    source: 'https://github.com/kronosGR/GameHub',
-    url: 'https://gamehub.kronosgr.net/',
-  },
-  {
-    id: 5,
-    name: 'CSM',
-    year: 2020,
-    info: `Science Museum website.`,
-    plus: `Responsive design
-    Contact form validation
-    Messages saved to DB through WP API
-    `,
-    techs_imgs: [
-      'icons/html.svg',
-      'icons/css.svg',
-      'icons/javascript.svg',
-      'icons/wp.png',
-    ],
-    thumb: 'images/csm.jpg',
-    img: 'images/csm.jpg',
-    source: 'https://github.com/kronosGR/CSM',
-    url: 'https://csm.kronosgr.net/',
-  },
 ];
