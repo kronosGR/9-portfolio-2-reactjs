@@ -2,7 +2,7 @@
   "name": "9-portfolio-2-reactjs",
   "version": "0.1.0",
   "private": true,
-  // "homepage": "https://kronosgr.github.io/9-portfolio-2-reactjs/",
+  "homepage": "https://luxury-cupcake-7cc8ce.netlify.app/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
@@ -13,8 +13,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
