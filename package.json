@@ -2,7 +2,7 @@
   "name": "9-portfolio-2-reactjs",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/kronosGR/9-portfolio-2-reactjs",
+  "homepage": "https://kronosgr.github.io/9-portfolio-2-reactjs/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
