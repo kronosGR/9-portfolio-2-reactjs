@@ -73,7 +73,7 @@ export const projects = [
     thumb:
       'https://github.com/kronosGR/-js-frameworks-course-assignment/raw/main/screenshot.png',
     img: 'https://github.com/kronosGR/-js-frameworks-course-assignment/raw/main/screenshot.png',
-    source: 'https://github.com/kronosGR/JSWorld',
-    url: 'https://jsw.kronosgr.net/',
+    source: 'https://github.com/kronosGR/-js-frameworks-course-assignment',
+    url: 'https://js-frameworks-course-assignment.vercel.app/',
   },
 ];
